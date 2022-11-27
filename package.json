@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "name": "search-ui",
+  "description": "",
+  "version": "1.0.0",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajoythomas/search-UI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajoythomas/search-UI/issues"
+  },
+  "homepage": "https://github.com/ajoythomas/search-UI#readme"
+}
